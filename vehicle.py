@@ -4,3 +4,6 @@ class Vehicle:
         self.model = model
         self.year = year
         self.color = color
+
+    def __repr__(self):
+        return "{} {} {} {}".format(self.company, self.model, self.year, self.color)
